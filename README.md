@@ -110,9 +110,6 @@ ionic serve
 - **TypeScript 5.9** — Tip güvenli geliştirme
 - **RxJS** — Reaktif programlama
 
-## 📹 Demo Video
-
-📎 [Video Linki](https://drive.google.com/file/d/1L643uFEbvmld1XoqE6jysWR-KvDj9Kjm/view?usp=sharing)
 
 ## 👨‍💻 Geliştirici
 
