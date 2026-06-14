@@ -1,0 +1,108 @@
+// CüzdanApp Custom Theme
+// Kişisel Finans Takipçisi
+
+:root {
+  // Primary - Mor/Indigo
+  --ion-color-primary: #6C63FF;
+  --ion-color-primary-rgb: 108, 99, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #5f57e0;
+  --ion-color-primary-tint: #7b73ff;
+
+  // Secondary
+  --ion-color-secondary: #a78bfa;
+  --ion-color-secondary-rgb: 167, 139, 250;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #937adc;
+  --ion-color-secondary-tint: #b097fb;
+
+  // Success - Gelir rengi
+  --ion-color-success: #30d158;
+  --ion-color-success-rgb: 48, 209, 88;
+  --ion-color-success-contrast: #000000;
+  --ion-color-success-contrast-rgb: 0, 0, 0;
+  --ion-color-success-shade: #2ab84d;
+  --ion-color-success-tint: #45d669;
+
+  // Danger - Gider rengi
+  --ion-color-danger: #ff453a;
+  --ion-color-danger-rgb: 255, 69, 58;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #e03d33;
+  --ion-color-danger-tint: #ff584e;
+
+  // Dark
+  --ion-color-dark: #1a1a2e;
+  --ion-color-dark-rgb: 26, 26, 46;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #171728;
+  --ion-color-dark-tint: #313143;
+
+  // Background
+  --ion-background-color: #0f0c29;
+  --ion-background-color-rgb: 15, 12, 41;
+
+  // Text
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+
+  // Toolbar
+  --ion-toolbar-background: transparent;
+  --ion-toolbar-color: #ffffff;
+
+  // Card
+  --ion-card-background: rgba(255, 255, 255, 0.05);
+
+  // Item
+  --ion-item-background: transparent;
+}
+
+// Dark mode overrides (since our app is always dark)
+body {
+  --ion-background-color: #0f0c29;
+  --ion-text-color: #ffffff;
+}
+
+// Alert custom styling
+.custom-alert {
+  --background: #1a1a2e;
+  --max-width: 340px;
+
+  .alert-wrapper {
+    background: #1a1a2e !important;
+    border-radius: 20px !important;
+    border: 1px solid rgba(108, 99, 255, 0.2);
+  }
+
+  .alert-head {
+    padding-bottom: 8px;
+  }
+
+  .alert-title {
+    color: #fff !important;
+    font-weight: 700;
+  }
+
+  .alert-message {
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
+
+  .alert-button {
+    color: #6C63FF !important;
+    font-weight: 600;
+  }
+
+  .alert-button.alert-button-role-destructive {
+    color: #ff453a !important;
+  }
+}
+
+// Toast custom styling
+.custom-toast {
+  --border-radius: 12px;
+  --box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}

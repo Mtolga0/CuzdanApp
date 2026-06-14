@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build
+www/
+dist/
+
+# Angular
+.angular/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Capacitor
+android/
+ios/
+
+# Misc
+*.log
+test-edit.js
+
+# Professor's reference project
+ionicfirebase_05.05-2.2026/
